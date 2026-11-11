@@ -1,16 +1,22 @@
-# Operation House Hack, production site files
+# Operation House Hack, production site
 
-Seven standalone HTML files. Each one is self contained (fonts, CSS, and JavaScript are all inline), so you paste the contents of each file into a GoHighLevel page or funnel step as Custom Code.
+Seven standalone HTML files, each fully self contained (fonts, CSS, JS inline). Hosted on Cloudflare Pages straight from this repo.
 
-## Files and where they go
+## Files and routes
 
-1. `1-home.html` — Home
-2. `2-how-it-works.html` — How It Works, watch the VSL then book a call, calendar embed goes here
-3. `3-properties-calculator.html` — Properties and the house hack calculator
-4. `4-confirmed.html` — Confirmed, the booking thank you page
-5. `5-legal.html` — Terms and Privacy, combined
-6. `6-sell-a-property.html` — Sell a Property, the full seller funnel, one page
-7. `7-resources.html` — Resources, the educational long form content
+- `index.html` → `/`
+- `how-it-works.html` → `/how-it-works`
+- `properties.html` → `/properties`
+- `confirmed.html` → `/confirmed`
+- `legal.html` → `/legal`
+- `sell.html` → `/sell`
+- `resources.html` → `/resources`
+
+Cloudflare Pages serves `.html` files at extensionless URLs, which matches every internal link and canonical tag.
+
+## Cloudflare Pages settings
+
+Framework preset: None. Build command: empty. Build output directory: `/`. Production branch: `main`.
 
 ## Only two things left for you to paste in
 
