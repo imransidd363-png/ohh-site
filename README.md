@@ -21,7 +21,7 @@ Framework preset: None. Build command: empty. Build output directory: `/`. Produ
 ## Only two things left for you to paste in
 
 - **How It Works**: the hero video is a placeholder, marked `GHL VIDEO EMBED SLOT`. Swap it for your GoHighLevel video embed, or YouTube or Vimeo.
-- **How It Works**: the calendar box right below it is a placeholder, marked `GHL CALENDAR EMBED SLOT`. Swap it for your GoHighLevel calendar widget embed.
+- **How It Works**: the calendar is now the live GoHighLevel booking widget.
 
 Everything else is finished, real content, no other placeholders anywhere in the site.
 
